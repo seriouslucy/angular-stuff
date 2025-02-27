@@ -1,2 +1,1 @@
 # angular-stuff
-vad fan 
