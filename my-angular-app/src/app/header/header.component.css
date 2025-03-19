@@ -1,0 +1,16 @@
+.css-header {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  background: pink;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: purple;
+  align-items: center;
+  padding: 10px;
+}
+
+a {
+ margin: 1em;
+  text-decoration: none;
+}
+

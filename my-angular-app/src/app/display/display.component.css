@@ -1,0 +1,8 @@
+.box {
+  margin: 0 auto;
+  width: 1000px;
+  height: 500px;
+  border: 4px dotted grey;
+  text-align: center;
+}
+
