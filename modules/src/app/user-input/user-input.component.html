@@ -1,0 +1,12 @@
+<form (submit)="onSubmit()">
+
+  <input type="text" [(ngModel)]="nameInput" name="nameInput" placeholder="Enter your name...">
+  <input type="text" placeholder="Enter your favourite colour:" [(ngModel)]="favColour" name="favColour">
+
+  <button>Submit</button>
+</form>
+
+@if (nameInput && favColour) {
+  <h3 [style.color]="favColour">Hi my name {{ nameInput }} &excl; My favourite colour is {{ favColour }}</h3>
+}
+
